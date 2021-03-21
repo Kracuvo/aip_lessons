@@ -1,3 +1,3 @@
 ﻿  main.cpp
-D:\АиП ДЗ\1n2z\main.cpp(9,11): warning C4305: =: усечение из "double" в "float"
-  1n2z.vcxproj -> D:\АиП ДЗ\1n2z\Debug\1n2z.exe
+D:\АиП ДЗ\1 неделя 2(g) задание\main.cpp(13,11): warning C4305: =: усечение из "double" в "float"
+  1n2z.vcxproj -> D:\АиП ДЗ\1 неделя 2(g) задание\Debug\1n2z.exe

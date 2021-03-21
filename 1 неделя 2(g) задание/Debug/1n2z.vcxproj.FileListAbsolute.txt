@@ -1,2 +1,4 @@
 D:\АиП ДЗ\1n2z\Debug\1n2z.exe
 D:\АиП ДЗ\1n2z\Debug\1n2z.pdb
+D:\АиП ДЗ\1 неделя 2(g) задание\Debug\1n2z.exe
+D:\АиП ДЗ\1 неделя 2(g) задание\Debug\1n2z.pdb

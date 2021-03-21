@@ -1,0 +1,9 @@
+1.Gradusi v chas v gragusi v minutu
+2.Gradusi v chas v radiani v minutu
+3.Gradusi v minutu v gragusi v chas
+4.Gradusi v minutu v radiani v minutu
+5.Radiani v minutu v gragusi v chas
+6.Radiani v minutu v gragusi v minutu
+Выбор пользователя 5
+Kol-vo = 5
+Результат = 4.77667

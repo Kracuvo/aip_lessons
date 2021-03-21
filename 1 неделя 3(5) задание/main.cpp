@@ -1,9 +1,11 @@
-
+#include <fstream>
 #include <iostream>
 
 using namespace std;
 
 float ch1, ch2, ch3, rez;
+
+void ReadWriteNumbers();
 
 int main()
 {
@@ -15,5 +17,28 @@ int main()
 	ch3 = (ch3 * ch3);
 	rez = (ch1 + ch2 + ch3);
 	cout << "Rezultat: " << rez;
+
+	ReadWriteNumbers();
+
 	return 0;
+}
+
+void ReadWriteNumbers() {
+
+	setlocale(LC_ALL, "Russian");
+
+	float num1 = ch1;
+	float num2 = ch2;
+	float num3 = ch3;
+	float num4 = rez;
+
+	std::fstream f("text.txt", std::ios::out); // открываем для записи
+	f << "1 число " << num1 << " \n2 число " << num2 << "\n3 число" << num3  << " \nОтвет " << num4;
+	f.close(); // закрываем файл
+
+
+	f.open("text.txt", std::ios::in); // открываем для чтения
+	f << "1 число " << num1 << " \n2 число " << num2 << "\n3 число" << num3  << " \nОтвет " << num4;
+	f.close(); // закрываем файл
+
 }
