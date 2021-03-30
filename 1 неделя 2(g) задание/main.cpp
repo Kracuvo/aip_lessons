@@ -6,6 +6,8 @@ float otv, r, l, pi;
 
 void ReadWriteNumbers();
 
+// Пользователь вводит параметры фигуры. Найти периметр и площадь фигур: Конус (площадь)
+
 int main()
 {
 	setlocale(LC_ALL, "Russian");

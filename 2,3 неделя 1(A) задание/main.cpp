@@ -3,6 +3,10 @@
 
 using namespace std;
 
+//Вычислите значение выражения:  (a+4b)(a−3b)+a2 при a=2 и b=3. Ответ:  -94
+
+
+
 float b, a;
 
 void ReadWriteNumbers();

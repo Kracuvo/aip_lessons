@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//¬вод€тс€ три целых числа. ќпределить какое из них наибольшее.
+
 void ReadWriteNumbers(float num1, float num2, float num3, float num4);
 
 int main()
