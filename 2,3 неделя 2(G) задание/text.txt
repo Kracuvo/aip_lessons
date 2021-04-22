@@ -4,6 +4,6 @@
 4.Gradusi v minutu v radiani v minutu
 5.Radiani v minutu v gragusi v chas
 6.Radiani v minutu v gragusi v minutu
-Выбор пользователя 5
-Kol-vo = 5
-Результат = 4.77667
+Выбор пользователя 2
+Kol-vo = 2
+Результат = 6878.4
