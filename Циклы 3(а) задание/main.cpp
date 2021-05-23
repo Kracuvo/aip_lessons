@@ -1,22 +1,28 @@
 #include <iostream>
 
+struct klad
+{
+	float x, y;
+};
+
 int main()
 {
+	klad k;
 
-	float x, y, z;
+	float z;
 
 
 	std::cout << "Vvedite Z - "; std::cin >> z;
-	std::cout << "Vvedite X - "; std::cin >> x;
+	std::cout << "Vvedite X - "; std::cin >> k.x;
 
-	y = 0;
+	k.y = 0;
 
 	for (int i = 1; i <= z; i++)
 	{
-		y += i * x;
+		k.y += i * k.x;
 	}
 
-	std::cout << "Y = " << y;
+	std::cout << "Y = " << k.y;
 
 	return 0;
 }

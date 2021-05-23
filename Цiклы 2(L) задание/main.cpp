@@ -3,17 +3,23 @@
 
 //Протабулировать функцию (шаг и диапазон задаёт пользователь)
 
+struct klad
+{
+	float x, y;
+};
+
 int main() {
 
-	float x, a, b, y, shag;
+	klad k;
+	float a, b, shag;
 
 	std::cout << "Vvedite shag"; std::cin >> shag;
 	std::cout << "Vvedite diapozon"; std::cin >> a >> b;
-	x = a;
-	while (x <= b) {
-		y = sqrt((5 * x) + (4 * (x * x * x))) + (4 * x) + (3 / (sin((9 * x) + 71)));
-		x = x + shag;
-		std::cout << y << "\n";
+	k.x = a;
+	while (k.x <= b) {
+		k.y = sqrt((5 * k.x) + (4 * (k.x * k.x * k.x))) + (4 * k.x) + (3 / (sin((9 * k.x) + 71)));
+		k.x = k.x + shag;
+		std::cout << k.y << "\n";
 	}
 
 	return 0;
